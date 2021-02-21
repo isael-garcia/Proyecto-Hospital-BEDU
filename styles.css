@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Titillium Web;
+    font-family: 'Cairo', sans-serif;
     font-weight: 400;
     color: black;
 }
@@ -13,15 +13,22 @@ body{
 div{
     display: block;
 }
+
+.texto-iconos{
+    font-size: 1.2rem;
+}
 .logo-header>img{
-    width: 250px;
+    width: 70%;
 }
 
+.contenedor-2menus{
+    display: inline-block;
+    width: 100%;
+}
 .alineacion-vertical{
-    padding-top: 25px;
+    padding-top: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .baner-alerta{
