@@ -51,10 +51,10 @@
                         <span class="texto-iconos"> Menu de Atencion </span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item align-self-center">
                         <form class="d-flex">
-                            <input class="form-control mb-2" type="search" placeholder="Busqueda Rapida" aria-label="Search">
-                            <button class="btn btn-outline-success mb-2" type="submit">
+                            <input class="form-control border border-danger mb-2 " type="search" placeholder="Busqueda Rapida" aria-label="Search">
+                            <button class="btn btn-outline-danger mb-2" type="submit">
                                 Buscar
                             </button>
                           </form>
@@ -64,28 +64,40 @@
         </div>
     </div>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-        <div class="container-fluid d-flex">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-            <ul class="navbar-nav">
-                <!-- Empieza el boton para realizar el dropdow -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDarkDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid col-auto">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav py-2">
+            <li class="nav-item align-self-center margen-nav">
+              <a class=" active text-center texto-nav" aria-current="page" href="#"> Servicio Medico </a>
+            </li>
+            <li class="nav-item align-self-center margen-nav">
+              <a class=" active texto-nav" href="#">Galeria</a>
+            </li>
+            <li class="nav-item active margen-nav">
+              <a class=" text-center active texto-nav" href="#">Ubicanos</a>
+            </li>
+            <li class="nav-item dropdown margen-nav align-self-center">
+              <a class="active text-center texto-nav" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Otras Areas
+              </a>
+              <ul class="dropdown-menu border border border-danger rounded-end bg-danger items-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Voluntariado</a></li>
+                <li><a class="dropdown-item" href="#">Socorros</a></li>
+                <li><a class="dropdown-item" href="#">Veteranos</a></li>
+                <li><a class="dropdown-item" href="#">Centro de Rehabilitación</a></li>
+                <li><a class="dropdown-item" href="#">Captacion de Fondos</a></li>
+                <li><a class="dropdown-item" href="#">Coordinacion de Juventud</a></li>
+                <li><a class="dropdown-item" href="#">Coordinacion de Capacitación</a></li>
+                <li><a class="dropdown-item" href="#">Coordinación de Prevención de Accidentes</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
    
 
 

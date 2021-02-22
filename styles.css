@@ -75,3 +75,18 @@ div{
     text-decoration: none;
 }
 
+.texto-nav{
+
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 700;
+    text-decoration: none;
+}
+.items-dropdown>li>a{
+    color:white;
+    font-size: medium;
+    font-weight: 600;
+}
+.margen-nav{
+    margin-right: 1.5rem;
+}
