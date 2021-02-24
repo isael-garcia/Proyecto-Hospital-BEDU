@@ -20,66 +20,92 @@
             </li>
         </ul>
     </div>    
-    <!-- Parte logo y  -->
-    <div class="container-fluid ">
-        <div class="alineacion-vertical">
-             <div class="imagen offset-md-1">
-                <figure class="logo-header">
-                    <img src="https://www.cruzrojanaucalpan.org/s/misc/logo.png?t=1610121538" alt="">
-                </figure>
-             </div>
-             <div class="contenedor-2menus">
-              <div class="col-lg-12 acceso-rapido1">
-                <ul class="list-group list-group-horizontal list-group-flush offset-md-2 ">
-                    <li class="list-group-item border-0"><a href="" class="text-reset text-decoration-none"> Contacto </a></li>
-                    <li class="list-group-item border-0"><a href="" class="text-reset text-decoration-none"> Portal Medico</a></li>
-                    <li class="list-group-item border-0"><a href="" class="text-reset text-decoration-none"> Nosotros </a></li>
-                    <li class="list-group-item border-0"><a href="" class="text-reset text-decoration-none"> Donaciones </a></li>
-                    <li class="list-group-item border-0"><a href="" class="text-reset 
-                        text-decoration-none"> Escuela de Enfermeria</a></li>
-                  </ul>
-                </div>
-                <ul class="list-inline d-flex justify-content-lg-end px-3 py-1">
-                    <li class="list-inline-item border-end align-self-center px-2 texto-iconos">
-                        <a href="" class="text-decoration-none text-reset">
-                        <i class="fas fa-stethoscope "></i>
-                        <span class="texto-iconos"> Especialidades Medicas </span></li>
-                        </a>
-                    <li class="list-inline-item align-self-center">
-                        <a href="" class=" text-decoration-none text-reset">
-                        <i class="far fa-calendar-plus"></i>
-                        <span class="texto-iconos"> Menu de Atencion </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item align-self-center">
-                        <form class="d-flex">
-                            <input class="form-control border border-danger mb-2 " type="search" placeholder="Busqueda Rapida" aria-label="Search">
-                            <button class="btn btn-outline-danger mb-2" type="submit">
-                                Buscar
-                            </button>
-                          </form>
-                    </li>
-                  </ul>
-            </div>
-        </div>
-    </div>
+
     
+    <div class="container contenedorarriba">
+      <div class="alineacion-vertical">
+        <div class="logo-cruz">
+          <picture class="logo-principal">
+            <img src="./images/logo.png" media="(max-width: 38px)">
+            <!-- <source src="./images/logo.png">   -->
+          </picture>
+        </div>
+      
+    <div class="header-links">
+      <div class="col-md-12 header-links1">
+        <ul class="list-inline pull-derecha navegacion-top py-2">
+          <li>
+            <a href="" class="text-decoration-none text-reset  px-2"> Contacto </a>
+          </li>
+          <li>
+            <a href="" class="text-decoration-none text-reset  px-2"> Portal Medico </a>
+          </li>
+          <li>
+            <a href="" class="text-decoration-none text-reset  px-2"> Nosotros </a>
+          </li>
+          <li>
+            <a href="" class="text-decoration-none text-reset  px-2"> Donaciones </a>
+          </li>
+          <li>
+            <a href="" class="text-decoration-none text-reset  px-2"> Escuela de Enfermeria</a>
+          </li>
+        </ul>
+    </div>
+    <div class="col-md-12 header-links2">  
+      <ul class="list-inline pull-derecha acciones-rapidas px-1">
+        <li class="d-flex">
+          <a href="./index.html" target="self" class="d-flex px-2"> 
+          <img src="./images/estetoscopio.svg" alt="estetoscopio" width="45" height="42">
+          <span class="px-1">Especialidades Medicas</span>
+          </a>
+        </li>
+        <li class="d-flex">
+         <a href="./index.html" class="d-flex px-2">
+          <img src="./images/calendario.svg" alt="calendario" width="42" height="47">
+          <span class="px-1">Información Rapida</span>
+        </a>
+        
+        </li>
+        <li class="d-flex">
+          <div class="input-group mb-1">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    </div>
+
+  </div> 
+</div>
+
+
+
+
+    <!-- Parte logo y  -->
+ 
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-      <div class="container-fluid col-auto">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav py-2">
-            <li class="nav-item align-self-center margen-nav">
+      <div class="container-fluid col-auto img-nav">
+        <button class="navbar-toggler  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="./images/logo.png" width="250" height="auto" class="px-3 " >
+            <!-- <source src="./images/logo.png">   -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0 py-3">
+            <li class="nav-item  margen-nav">
               <a class=" active text-center texto-nav" aria-current="page" href="#"> Servicio Medico </a>
             </li>
-            <li class="nav-item align-self-center margen-nav">
+            <li class="nav-item  margen-nav">
               <a class=" active texto-nav" href="#">Galeria</a>
             </li>
-            <li class="nav-item active margen-nav">
-              <a class=" text-center active texto-nav" href="#">Ubicanos</a>
+            <li class="nav-item  margen-nav">
+              <a class=" active texto-nav" href="#">Ubicanos</a>
             </li>
-            <li class="nav-item dropdown margen-nav align-self-center">
-              <a class="active text-center texto-nav" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Otras Areas
+            <li class="nav-item dropdown">
+              <a class=" texto-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Otras Areas
               </a>
               <ul class="dropdown-menu border border border-danger rounded-end bg-danger items-dropdown" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Voluntariado</a></li>
@@ -90,14 +116,18 @@
                 <li><a class="dropdown-item" href="#">Coordinacion de Juventud</a></li>
                 <li><a class="dropdown-item" href="#">Coordinacion de Capacitación</a></li>
                 <li><a class="dropdown-item" href="#">Coordinación de Prevención de Accidentes</a></li>
-
-
               </ul>
             </li>
+            
           </ul>
+          
         </div>
       </div>
     </nav>
+
+
+    
+    
    
 
 

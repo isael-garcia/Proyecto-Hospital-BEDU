@@ -18,7 +18,7 @@ div{
     font-size: 1.2rem;
 }
 .logo-header>img{
-    width: 70%;
+    width: 100%;
 }
 
 .contenedor-2menus{
@@ -26,7 +26,6 @@ div{
     width: 100%;
 }
 .alineacion-vertical{
-    padding-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -38,7 +37,9 @@ div{
     min-height: 30px;
     padding: 5px 10px;
 }
-
+.texto-menu{
+    text-align:left ;
+}
 .baner-alerta >ul{
     width: 100%;
     height: 100%;
@@ -76,7 +77,6 @@ div{
 }
 
 .texto-nav{
-
     color: aliceblue;
     font-size: medium;
     font-weight: 700;
@@ -89,4 +89,48 @@ div{
 }
 .margen-nav{
     margin-right: 1.5rem;
+}
+
+.header-links{
+    width: 77.5%;
+    float: right;
+}
+
+
+.pull-derecha{
+    float: right;
+}
+.navegacion-top{
+    display: inline-flex;
+}
+.header-links>div{
+margin-bottom: 5px;
+text-align: center;
+}
+
+.acciones-rapidas{
+    display: flex;
+    align-items: center;
+    padding-top: 0%;
+   
+}
+
+.logo-principal img{
+    max-width: 50%;
+}
+
+
+@media (max-width:768px){
+    .contenedorarriba{
+        display: none;
+    }
+    .logo-aparece{
+        display: in
+    }
+}
+
+@media (min-width:1000px){
+    .img-nav img{
+        display: none;
+    }
 }
