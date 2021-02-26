@@ -92,7 +92,7 @@ div{
 }
 
 .header-links{
-    width: 77.5%;
+    width: 120%;
     float: right;
 }
 
@@ -116,7 +116,7 @@ text-align: center;
 }
 
 .logo-principal img{
-    max-width: 50%;
+    max-width: 90%;
 }
 
 
