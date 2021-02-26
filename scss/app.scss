@@ -1,0 +1,47 @@
+$color-header: #0d0d0d;
+$color-text: #404040;
+
+$color-btn-text: #3363ff;
+$color-btn-background: #e6ecff;
+
+$transition: .2s;
+.tarjeta p{
+    font-size: 16px;
+    letter-spacing: .1rem;
+    line-height: 1.7;
+    color: darken($color-text, 1%);
+    margin-bottom: .5rem;
+}
+
+.tarjeta h5{
+    font-size: 2rem;
+    font-weight: 500;
+    color: $color-header;
+    margin-bottom: 1.5rem;
+
+    &:hover,
+    &:active {
+      background-color: darken( $color-btn-background, 2%);
+    }      
+}
+
+.card img{
+    object-fit: cover;
+    display: block;
+}
+
+.item{
+    background-color: #fff;
+    border-radius: .4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: $transition;
+    
+    &:hover {
+      transform: translateY(-.5%);
+      box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+    }
+  
+}
+

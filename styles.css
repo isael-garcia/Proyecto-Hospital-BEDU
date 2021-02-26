@@ -119,14 +119,28 @@ text-align: center;
     max-width: 90%;
 }
 
+.text-justify{
+    text-align: justify;
+    
+}
+
+.temblor:hover{
+    -webkit-animation: tiembla 3s;
+}
+
+@-webkit-keyframes tiembla{
+    10%{-webkit-transform: translate(5px,0px);}
+    /* 0%  { -webkit-transform:rotateZ(-1deg); } */
+  /* 50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 5deg); } */
+}
+
 
 @media (max-width:768px){
     .contenedorarriba{
         display: none;
     }
-    .logo-aparece{
-        display: in
-    }
+    
 }
 
 @media (min-width:1000px){
