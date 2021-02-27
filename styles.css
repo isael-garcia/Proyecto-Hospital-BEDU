@@ -128,6 +128,7 @@ text-align: center;
     -webkit-animation: tiembla 3s;
 }
 
+
 @-webkit-keyframes tiembla{
     10%{-webkit-transform: translate(5px,0px);}
     /* 0%  { -webkit-transform:rotateZ(-1deg); } */
