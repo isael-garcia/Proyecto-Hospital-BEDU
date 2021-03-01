@@ -26,7 +26,7 @@ function css(){
 const fileinclude = require('gulp-file-include');
 
 gulp.task('fileinclude', function() {
-  gulp.src(['index.html'])
+  gulp.src(['contacto.html'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'
