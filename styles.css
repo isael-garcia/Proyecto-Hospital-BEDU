@@ -78,7 +78,13 @@ div{
 
 .texto-nav{
     color: aliceblue;
-    font-size: medium;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: none;
+}
+.texto-footer{
+    color: aliceblue;
+    font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
 }
