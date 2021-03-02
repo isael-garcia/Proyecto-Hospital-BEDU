@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -29,15 +31,17 @@
       <div class="alineacion-vertical">
         <div class="logo-cruz">
           <picture class="logo-principal">
+            <a href="./index.html">
             <img src="./images/logo.png" media="(max-width: 38px)">
             <!-- <source src="./images/logo.png">   -->
+            </a>
           </picture>
         </div>
     <div class="header-links">
       <div class="col-md-12 header-links1">
-        <ul class="list-inline pull-derecha navegacion-top py-2">
+        <ul class="list-inline pull-derecha navegacion-top subrayado py-2" >
           <li>
-            <a href="" class="text-decoration-none text-reset  px-2"> Contacto </a>
+            <a href="./contacto.html" class="text-decoration-none text-reset  px-2"> Contacto </a>
           </li>
           <li>
             <a href="" class="text-decoration-none text-reset  px-2"> Portal Medico </a>
@@ -53,20 +57,19 @@
           </li>
         </ul>
     </div>
-    <div class="col-md-12 header-links2">  
+    <div class="col-md-12 d-flex justify-content-around header-links2">  
       <ul class="list-inline pull-derecha acciones-rapidas px-2">
-        <li class="d-flex text-reset border border-3 border-danger  rounded-pill py-1">
+        <li class="list-inline-item d-flex text-reset border border-3 border-danger  rounded-pill py-1">
           <a href="./index.html" target="self" class="d-flex px-2  text-decoration-none text-reset"> 
           <img src="./images/estetoscopio.svg" alt="estetoscopio" width="45" height="42">
-          <span class="">Especialidades Medicas</span>
+          <span class="align-self-center">Especialidades Medicas</span>
           </a>
         </li>
         <li class="d-flex border border-3 border-danger  rounded-pill py-1 ">
          <a href="./index.html" class="d-flex px-2 text-decoration-none text-reset">
           <img src="./images/calendario.svg" alt="calendario" width="45" height="42">
-          <span class="px-1">Información Rapida</span>
+          <span class="align-self-center">Información Rapida</span>
         </a>
-        
         </li>
         <li class="d-flex">
           <div class="input-group mb-1 px-2">
@@ -128,7 +131,7 @@
       <div class="card border-0">
         <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614312262/cache_17908493_xq6uj3.jpg" class="img-fluid mx-auto temblor" width="48%" alt="...">
         <div class="card-body tarjeta item">
-          <h5 class="card-title text-center">Administracion</h5>
+          <h5 class="card-title text-center ">Administracion</h5>
           <p class="card-text text-center">Es la coordinación que se encarga de regular la administración financiera, recursos humanos y servicios administrativos.</p>
         </div>
       </div>
@@ -211,10 +214,10 @@
   <!-- footer -->
 <footer>
   <div class="card text-center py-3">
-    <div class="card-header bg-danger texto-footer">
-      Emergencias: 
-      <a href="tel://5555606899" class="text-decoration-none text-reset">  55 5560-6899  / </a>
-      <a href="tel://5555606999" class="text-decoration-none text-reset">  55 5560-6999  </a>
+    <div class="card-header row row-cols-lg-3 row-cols-sm-3 bg-danger texto-footer">
+      
+      <a href="tel://5555606899" class="text-decoration-none text-reset text-center offset-lg-3">Emergencias:  55 5560-6899 </a>
+      <a href="tel://5555606999" class="text-decoration-none text-reset text-start ">55 5560-6999  </a>
 
     </div>
     <div class="card-body">

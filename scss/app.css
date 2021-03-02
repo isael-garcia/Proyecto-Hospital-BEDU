@@ -19,7 +19,7 @@
 
 .card img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 
@@ -28,7 +28,7 @@
   border-radius: .4rem;
   overflow: hidden;
   -webkit-box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -36,30 +36,12 @@
 
 .item:hover {
   -webkit-transform: translateY(-0.5%);
-  transform: translateY(-0.5%);
+          transform: translateY(-0.5%);
   -webkit-box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
 
 .card {
   height: 270px;
 }
-
-.card-text {
-  font-weight: 400;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.subrayado a {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  -webkit-transition: background-size .3s;
-  transition: background-size .3s;
-}
-
-.subrayado a:hover, .subrayado a:focus {
-  background-size: 100% 2px;
-}
+/*# sourceMappingURL=app.css.map */

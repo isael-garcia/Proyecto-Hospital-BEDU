@@ -50,4 +50,19 @@ $transition: .2s;
   height: 270px;
   
 }
- 
+.card-text{
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.subrayado a{
+  background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.subrayado a:hover, .subrayado a:focus{
+  background-size: 100% 2px;
+}
