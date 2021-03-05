@@ -1,5 +1,5 @@
 .tarjeta p {
-  font-size: 16px;
+  font-size0: 18px;
   letter-spacing: 1px;
   line-height: 1;
   color: #3d3d3d;
@@ -50,7 +50,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.subrayado a {
+.subrayado a, h5 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -62,4 +62,18 @@
 
 .subrayado a:hover, .subrayado a:focus {
   background-size: 100% 2px;
+}
+
+.imagen-saturada:hover img {
+  -webkit-filter: saturate(180%);
+  filter: saturate(180%);
+}
+
+.con-img:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.con-img {
+  overflow: hidden;
 }

@@ -1,12 +1,19 @@
 $color-header: #0d0d0d;
 $color-text: #404040;
+$letra1:'Quicksand', sans-serif;
+$cyan: #60daaa;
+$yellow: #fbca67;
+$orange: #ff8a30;
+$red: #f45e61;
+$purple: #6477b9;
+$blue: #0eb7da;
 
 $color-btn-text: #3363ff;
 $color-btn-background: #e6ecff;
 
 $transition: .2s;
 .tarjeta p{
-    font-size: 16px;
+    font-size0: 18px;
     letter-spacing: 1px;
     line-height: 1;
     color: darken($color-text, 1%);
@@ -55,7 +62,7 @@ $transition: .2s;
   font-family: 'Quicksand', sans-serif;
 }
 
-.subrayado a{
+.subrayado a,h5{
   background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -66,4 +73,21 @@ $transition: .2s;
 .subrayado a:hover, .subrayado a:focus{
   background-size: 100% 2px;
 }
+
+
+.imagen-saturada:hover img{
+  filter: saturate(180%);
+}
+
+.con-img:hover img{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+
+.con-img{
+  overflow: hidden;
+}
+
+
+
+
 
