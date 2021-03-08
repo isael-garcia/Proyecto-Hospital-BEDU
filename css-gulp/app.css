@@ -77,3 +77,8 @@
 .con-img {
   overflow: hidden;
 }
+
+.card-donaciones {
+  height: 80%;
+  width: 70%;
+}
