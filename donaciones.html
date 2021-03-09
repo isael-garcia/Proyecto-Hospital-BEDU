@@ -17,18 +17,129 @@
     <title>Donaciones</title>
 </head>
 <body>
-    
+    <header>
+        <!-- header -->
+        <div class="baner-alerta">
+            <ul class="alertas"> 
+                <li class="contenido-actual">
+                    <a href="./index.html"> NO SOMOS HOSPITAL COVID </a>
+                </li>
+            </ul>
+        </div>    
+        <section class="container contenedorarriba"> <!-- imagen cruz roja -->
+          <div class="alineacion-vertical">
+             <div class="logo-cruz">
+                    <picture class="logo-principal">
+                      <a href="./index.html">
+                      <img src="./images/logo.png" media="(max-width: 38px)">
+                      <!-- <source src="./images/logo.png">   -->
+                      </a>
+                    </picture>
+                  </div> <!-- fin imagen cruz roja -->
+              <div class="header-links"> <!-- Contenedor de los dos menus -->
+                <div class="col-md-12 header-links1"> <!-- Contenedor 1 parte superior -->
+                  <ul class="list-inline pull-derecha navegacion-top subrayado py-2" >
+                    <li>
+                      <a href="./contacto.html" class="text-decoration-none text-reset  px-2"> Contacto </a>
+                    </li>
+                    <li>
+                      <a href="" class="text-decoration-none text-reset  px-2"> Portal Medico </a>
+                    </li>
+                    <li>
+                      <a href="" class="text-decoration-none text-reset  px-2"> Conocenos </a>
+                    </li>
+                    <li>
+                      <a href="" class="text-decoration-none text-reset  px-2"> Donaciones </a>
+                    </li>
+                    <li>
+                      <a href="" class="text-decoration-none text-reset  px-2"> Escuela de Enfermeria</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-md-12 d-flex justify-content-around header-links2"> <!-- Contenedor 2 inferior --> 
+                <ul class="list-inline pull-derecha acciones-rapidas px-2">
+                  <li class="list-inline-item d-flex text-reset border border-3 border-danger rounded-pill py-1">
+                    <a href="./index.html" target="self" class="d-flex px-2 text-decoration-none text-reset"> 
+                       <img src="./images/estetoscopio.svg" alt="estetoscopio" width="43" height="42">
+                       <span class="align-self-center">Especialidades Medicas</span>
+                    </a>
+                  </li>
+                  <li class="d-flex border border-3 border-danger  rounded-pill py-1 ">
+                    <a href="./index.html" class="d-flex px-2 text-decoration-none text-reset">
+                      <img src="./images/calendario.svg" alt="calendario" width="45" height="42">
+                      <span class="align-self-center">Información Rapida</span>
+                    </a>
+                  </li>
+                  <li class="d-flex">
+                    <div class="input-group mb-1 px-2">
+                      <input type="text" class="form-control border border-danger" placeholder="Busqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn btn-outline-danger " type="button" id="button-addon2">Buscar</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              </div>
+      </div> 
+    </section>
+        <!-- Parte logo y  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger"> <!-- navbar -->
+          <div class=" container-sm col-sm-6 col-lg-auto img-nav">
+                <!-- menu sandwich -->
+                <button class="navbar-toggler  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="./images/logo.png" width="250" height="auto" class="px-3 align-self-start" > 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-1 mb-lg-0 py-3">
+                  <li class="nav-item  margen-nav">
+                      <a class=" active text-center texto-nav" aria-current="page" href="#"> Inicio </a>
+                  </li>
+                  <li class="nav-item  margen-nav">
+                      <a class=" active  texto-nav" href="#">CREFI</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="active texto-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Coordinaciones
+                      </a>
+                  <ul class="dropdown-menu border border border-danger rounded-end bg-danger items-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="#">Voluntariado</a>
+                    </li>
+                    <li>
+                       <a class="dropdown-item" href="#">Socorros</a>
+                    </li>
+                    <li>
+                       <a class="dropdown-item" href="#">Veteranos</a>
+                    </li>
+                    <li>
+                       <a class="dropdown-item" href="#">Captacion de Fondos</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Coordinacion de Juventud</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Coordinacion de Capacitación</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Coordinación de Prevención de Accidentes</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!-- fin header -->
+      </header>
     
     
     <section class="container-fluid d-flex justify-content-center py-5"> <!-- Container Principal -->
-
-
         <div class="card-donaciones text-center container ">
             <div class="card-header  px-2 bg-danger">
               ¡Agradecemos tu donación!
             </div>
             <section class="container-fliud">
-                <div class="card-body">
+                <div class="card-body d-flex justify-content-center">
                     <h5 class="card-title d-flex justify-content-center">
                     <picture >
                         <img src="./images/donacion.svg" alt=""  width="50px" height="50px">
@@ -39,17 +150,76 @@
             </section>
              <section class="container p-2">
                 <div class="row d-flex ">
-                    <div class=" col-lg-12 align-self-center slidecontainer tarjeta">
-                        <input type="range" class="form-range form-control slider" min="50" max="5000" id="myRange">
-                        <span class="texto-valor px-2">
-                            Cantidad a donar: 
-                            <span id="demo">     
-                        </span>$</span>
+                    <div class="d-flex justify-content-md-between align-self-center slidecontainer tarjeta">
+                        <section class="container2">
+                            <div class="post">
+                                <div class="header_post">
+                                    <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1615307923/Cr/Ev1QJoGXEAQsYji_dithbe.jpg" alt="">
+                                </div>
+    
+                                <article class="body_post">
+                                    <div class="post_content">
                         
-                            <input  type="number" class="col col-lg-3  text-start" 
-                            placeholder="Otra Cantidad" min="50" max="10000" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-            
+                                        <h1>Tus Donativos Ayudan a Llevar la Ayuda a Donde mas se Necesitan</h1>
+                                        <p>Con tu donativo es posible realizar el despliegue de ayuda humanitaria en zonas afectadas por Desastres Naturales </p>
+                        
+                                        <div class="container_infos">
+                                            <div class="container_tags">
+                                                <span>Tags</span>
+                                                <div class="tags">
+                                                    <ul>
+                                                        <li>#EdoMex</li>
+                                                        <li>#Voluntarios</li>
+                                                    </ul>
+                                                </div>
+                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                        <section class="container2">
+                            <div class="post">
+                                <div class="header_post">
+                                    <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1615311406/Imagenes/Eu2ExlhU4AE7o5o_jarzr9.jpg" alt="">
+                                </div>
+    
+                                <div class="body_post">
+                                    <div class="post_content">
+                        
+                                        <h1>Ayudanos a Seguir Ayudando</h1>
+                                        <p>La Cruz Roja Delegacíon Naucalpan requiere de tu participación para poder seguir prestando servicios de emergencia gratuitos que salvan vidas</p>
+                        
+                                        <div class="container_infos">
+                                            <div class="container_tags">
+                                                <span>tags</span>
+                                                <div class="tags">
+                                                    <ul>
+                                                        <li>#AyudarNosMueve</li>
+                                                        <li>#Gracias</li>
+                                                    </ul>
+                                                </div>
+                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
+                    <div class="col-lg-12 d-flex justify-content-center p-2">
+                        <section class="col-3 p-3">
+                            
+                                <p class="fs-5">Ingresa la Cantidad</p>
+                              
+                              <figcaption class="blockquote-footer">
+                                La donación minima es de 50$(cincuenta pesos)
+                              </figcaption>
+                        <input type="number" class="form-control text-center form-control-lg" id="colFormLabelLg" min="50" max="5000" placeholder="50$">
+                        </section>
+                    </div>
+
                     <div class="col-lg-4 p-2">
                         <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Nombre Completo">
                     </div>
@@ -62,17 +232,37 @@
                   </div>
                 </section>    
                 <section class="card-footer bg-danger">
-                    <a href="#" class="btn bg-white 
-                    border border-danger rounded-pill boton-rojo">
+                    <a href="#" class="btn  efecto-boton 
+                    border border-dark border-2  boton-rojo">
                         Pago en linea 
                     </a>
                 </section>
             </div>
-           
-          
     </section> 
 
-
+    <footer>
+        <div class="container-fliud">
+        <div class="card text-center py-3">
+          <div class="card-header row row-cols-sm-1 row-cols-lg-3 d-sm-flex bg-danger texto-footer">
+              <span class="text-lg-end"> Emergencias: </span>
+              <a href="tel://5555606899" class="text-decoration-none text-reset text-md-center"> 55 5560-6899 </a>
+              <a href="tel://5555606999" class="text-decoration-none text-reset text-md-start">55 5560-6999  </a>
+          </div>
+          <div class="card-body">
+              <h5 class="card-title d-flex justify-content-center  ">
+                <img src="./images/hospital.svg" alt="" width="50" height="50">
+                <span class="px-3 align-self-end text-danger" > Cruz Roja Mexicana Delegación Naucalpan </span>
+              </h5>
+              <p class="card-text ">Av. Corona #1, Col. Los Remedios Naucalpan de Juárez, Estado de México
+                C.P. 53000
+              </p>
+              <a href="https://goo.gl/maps/idNAwJDB1r2UwacY8" target="_blank" class="btn btn-danger texto-nav">Ubicanos</a>
+          </div>
+          <footer class="blockquote-footer py-1">© CRUZ ROJA MEXICANA DELEGACION NAUCALPAN</footer>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.5803077189653!2d-99.24310198509268!3d19.473653686860956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d203a83fff1fd3%3A0x110ec620f6d855bb!2sCruz%20Roja%20Mexicana%20Delegaci%C3%B3n%20Naucalpan!5e0!3m2!1ses!2smx!4v1614825020835!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </footer>
 
 
 
