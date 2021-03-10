@@ -332,3 +332,22 @@ $transition: .2s;
     background: aliceblue;
     color:midnightblue;
   }
+
+  .card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+
+.card-container{
+  height: 335px;
+}
+.card-body2{
+  width: 100px;
+  height: 450px;
+}
