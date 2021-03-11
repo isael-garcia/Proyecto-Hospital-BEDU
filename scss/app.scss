@@ -9,6 +9,7 @@ $orange: #ff8a30;
 $red: #f45e61;
 $purple: #6477b9;
 $blue: #0eb7da;
+$rojo-titulo:#d5080a;
 
 $color-btn-text: #3363ff;
 $color-btn-background: #e6ecff;
@@ -149,7 +150,7 @@ $transition: .2s;
 .container2 {
   width: 45%;
   height: 80vh;
-  background: linear-gradient(180deg, rgb(248, 0, 0), rgb(238, 194, 194));
+  background: linear-gradient(180deg, #dc3545, rgb(238, 194, 194));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -350,4 +351,13 @@ $transition: .2s;
 .card-body2{
   width: 100px;
   height: 450px;
+}
+
+.titulo-rojo{
+  color:$rojo-titulo;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 24.3px;
+  font-weight: bold;
+  text-align: center;
 }
