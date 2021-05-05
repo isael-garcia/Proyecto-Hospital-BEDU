@@ -41,25 +41,22 @@
             <div class="col-md-12 header-links1"> <!-- Contenedor 1 parte superior -->
               <ul class="list-inline pull-derecha navegacion-top subrayado py-2" >
                 <li>
-                  <a href="./contacto.html" class="text-decoration-none text-reset  px-2"> Contacto </a>
+                  <a href="./contacto.html" class="text-decoration-none text-reset textosNavegacion px-4"> Contacto </a>
                 </li>
                 <li>
-                  <a href="" class="text-decoration-none text-reset  px-2"> Portal Medico </a>
+                  <a href="" class="text-decoration-none text-reset textosNavegacion px-4"> Portal Medico </a>
                 </li>
                 <li>
-                  <a href="./nosotros.html" class="text-decoration-none text-reset  px-2"> Conocenos </a>
+                  <a href="./nosotros.html" class="text-decoration-none text-reset textosNavegacion px-4"> Conocenos </a>
                 </li>
                 <li>
-                  <a href="./donaciones.html" class="text-decoration-none text-reset  px-2"> Donaciones </a>
-                </li>
-                <li>
-                  <a href="./Escuela.html" class="text-decoration-none text-reset  px-2"> Escuela de Enfermeria</a>
+                  <a href="./donaciones.html" class="text-decoration-none text-reset textosNavegacion px-4"> Donaciones </a>
                 </li>
               </ul>
           </div>
-          <div class="col-md-12 d-flex justify-content-around header-links2"> <!-- Contenedor 2 inferior --> 
+          <div class="col-md-12 d-flex justify-content-end header-links2"> <!-- Contenedor 2 inferior --> 
             <ul class="list-inline pull-derecha acciones-rapidas px-2">
-              <li class="list-inline-item d-flex text-reset border border-3 border-danger rounded-pill py-1">
+              <li class="list-inline-item d-flex text-reset border border-3 border-danger rounded-pill  py-1">
                 <a href="./index.html" target="self" class="d-flex px-2 text-decoration-none text-reset"> 
                    <img src="./images/estetoscopio.svg" alt="estetoscopio" width="43" height="42">
                    <span class="align-self-center">Especialidades Medicas</span>
@@ -70,12 +67,6 @@
                   <img src="./images/calendario.svg" alt="calendario" width="45" height="42">
                   <span class="align-self-center">Información Rapida</span>
                 </a>
-              </li>
-              <li class="d-flex">
-                <div class="input-group mb-1 px-2">
-                  <input type="text" class="form-control border border-danger" placeholder="Busqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-danger " type="button" id="button-addon2">Buscar</button>
-                </div>
               </li>
             </ul>
           </div>
@@ -133,87 +124,126 @@
 <!-- fin header -->
   </header>
   <!-- contenido pagina -->
-  <div class="container-fluid py-5">
-  <div class="row row-cols-1 row-cols-md-4 g-4">
-    <div class="col">
-      <div class="card border-0">
-        <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614312262/cache_17908493_xq6uj3.jpg" class="img-fluid mx-auto temblor" width="48%" alt="...">
-          <div class="card-body tarjeta item">
-            <h5 class="card-title text-center ">Administracion</h5>
-            <p class="card-text text-center">Es la coordinación que se encarga de regular la administración financiera, recursos humanos y servicios administrativos.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0">
-        <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908494_xrv9fe.png" width="48%" class="img-fluid mx-auto temblor" alt="...">
-          <div class="card-body tarjeta item">
-            <h5 class="card-title text-center">Capacitación</h5>
-            <p class="card-text text-wrap text-center">Escuela Nacional de Técnicos en Urgencias Médicas, crea profesionales en atención prehospitalaria</p>
-          </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0">
-        <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908495_kighkr.jpg" width="48%" class=" img-fluid mx-auto temblor" alt="...">
-          <div class="card-body tarjeta item">
-            <h5 class="card-title text-center">Captación de Fondos</h5>
-            <p class="card-text  text-wrap text-center">Coordinación encargada de captar recursos a traves de donativos en efectivo y especie, minimizando los gastos operativos.</p>
-          </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card border-0">
-        <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908496_z0qolf.jpg"  width="48%" class="img-fluid mx-auto temblor"alt="...">
-          <div class="card-body tarjeta item">
-            <h5 class="card-title text-center">CREFI</h5>
-            <p class="card-text text-wrap text-center">Nuestro Centro de Rehabilitación Física Integral esta enfocado en la comprensión y manejo del movimiento del cuerpo humano.</p>
-          </div>
-      </div>
-    </div>
-  </div>
-</div><!-- container que va a tener grid -->
-    <!-- contenido pagina -->
-  <div class="container-fluid py-5">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-      <div class="col">
-        <div class="card border-0">
-          <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908472_x4rzam.jpg" class="img-fluid mx-auto temblor" width="48%" alt="...">
-            <div class="card-body tarjeta item">
-              <h5 class="card-title text-center">Juventud</h5>
-              <p class="card-text px-3 text-wrap text-center">Es la agrupación de voluntarios juveniles de Cruz Roja de la que puedes ser parte.</p>
+  <main class="container d-flex align-items-center justify-content-center py-3">
+    <section class="row">
+        <main class="col-4">
+            <section class="row gy-2">
+              <div class="col-12">
+                  <div class="list-group">
+                   <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger" aria-current="true">
+                    <div class="d-flex w-100 justify-content-center align-self-center">
+                      <h5 class="mb-1">Cardiologia</h5>
+                    </div>
+                    <img src="./images/cardiologia.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+                </a>
+                  </div>
+              </div>
+              <div class="col-12">
+                  <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                  <div class="d-flex w-100 justify-content-center align-self-center">
+                    <h5 class="mb-1">Psicología</h5>
+                  </div>
+                  <img src="./images/salud-mental.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+                </a>
+                  </div>
+              </div>
+              <div class="col-12">
+                  <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                  <div class="d-flex w-100 justify-content-center align-self-center">
+                    <h5 class="mb-1">Cirugía General</h5>
+                  </div>
+                  <img src="./images/cirugia.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+                </a>
+                  </div>
+              </div>
+              <div class="col-12">
+                  <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                  <div class="d-flex w-100 justify-content-center align-self-center">
+                    <h5 class="mb-1">Gastroenterología</h5>
+                  </div>
+                  <img src="./images/gastroenterologia.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+                </a>
+                  </div>
+              </div>
+              <div class="col-12">
+                  <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger" aria-current="true">
+                  <div class="d-flex w-100 justify-content-center align-self-center">
+                    <h5 class="mb-1">Cirugía Maxilofacial</h5>
+                  </div>
+                  <img src="./images/seguro-dental.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+                </a>
+                  </div>
+              </div>
+            </section>
+        </main>
+        <main class="col-4 py-5 d-flex flex-column justify-content-center">
+          <ul class="list-inline text-center" >
+            <li>
+              <a href="#" class="text-decoration-none text-reset text-center display-6"> Cartera de Servicios </a>
+            </li>
+          </ul>
+          <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614311811/unnamed_wfi7ax.png" alt="" width="100%">
+        </main>
+        <main class="col-4">
+          <section class="row gy-2">
+            <div class="col-12">
+                <div class="list-group">
+                 <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger" aria-current="true">
+                  <div class="d-flex w-100 justify-content-center align-self-center">
+                    <h5 class="mb-1">Medicina Física</h5>
+                  </div>
+                  <img src="./images/med-fisica.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+              </a>
+                </div>
             </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-          <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908473_d00omd.jpg" width="48%" class="img-fluid mx-auto temblor" alt="...">
-            <div class="card-body tarjeta item">
-              <h5 class="card-title text-center">Servicio Medico</h5>
-              <p class="card-text  text-wrap text-center">Brindamos diversos servicios de salud, siempre con calidad y una atención oportuna </p>
+            <div class="col-12">
+                <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                <div class="d-flex w-100 justify-content-center align-self-center">
+                  <h5 class="mb-1">Rehabilitación</h5>
+                </div>
+                <img src="./images/rehabilitacion.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+              </a>
+                </div>
             </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-          <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908474_gkf3m5.jpg" width="48%" class="img-fluid mx-auto temblor" alt="...">
-            <div class="card-body tarjeta item">
-              <h5 class="card-title text-center">Socorros</h5>
-              <p class="card-text  text-wrap text-center">Es el área que se enfoca a la atención de emergencias y desastres siempre salvando vidas.</p>
+            <div class="col-12">
+                <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                <div class="d-flex w-100 justify-content-center align-self-center">
+                  <h5 class="mb-1">Neurología</h5>
+                </div>
+                <img src="./images/neurologia.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+              </a>
+                </div>
             </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-          <img src="https://res.cloudinary.com/cruz-roja-mexicana/image/upload/v1614354858/Cr/cache_17908475_mkd2vd.jpg"  width="48%" class="img-fluid mx-auto temblor"alt="...">
-            <div class="card-body tarjeta item">
-              <h5 class=" text-center ">Veteranos</h5>
-              <p class="card-text text-wrap text-center">Área operativa que agrupa al personal con mas conocimientos y experiencias durante la prestación de su servicio</p>
+            <div class="col-12">
+                <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger">
+                <div class="d-flex w-100 justify-content-center align-self-center">
+                  <h5 class="mb-1">Odontología</h5>
+                </div>
+                <img src="./images/odontologia.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+              </a>
+                </div>
             </div>
-        </div>
-      </div>
-    </div>
-  </div><!-- container que va a tener grid -->
+            <div class="col-12">
+                <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action d-flex border border-3 rounded-pill border-danger" aria-current="true">
+                <div class="d-flex w-100 justify-content-center align-self-center">
+                  <h5 class="mb-1">Psico Rehabilitación</h5>
+                </div>
+                <img src="./images/psico-reha.svg" alt="cardiologia" class="justify-content-start" width="20%"> 
+              </a>
+                </div>
+            </div>
+          </section>
+        </main>
+    </section>
+   </main>
   <!-- footer -->
 <footer>
   <div class="container-fliud">

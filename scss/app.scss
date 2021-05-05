@@ -15,8 +15,47 @@ $color-btn-text: #3363ff;
 $color-btn-background: #e6ecff;
 
 $transition: .2s;
+
+
+//barra de Contacto portal conocenos etc.
+
+  .textosNavegacion{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0d0d0d;
+  }
+
+
+  // Efectos hover sección cartera de servicios 
+
+  .boton3 {
+    color: black !important;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border-color: red;
+    transition: all 1s ease;
+    position: relative;
+  
+  }
+  .boton3:hover {
+    background: linear-gradient(236deg, rgba(240,0,0,1) 0%, rgba(255,255,255,1) 17%, rgba(246,246,246,1) 81%, rgba(255,0,0,1) 100%);
+    color: black !important;
+    font-weight: 700;
+    
+  }
+
+  // 
+ 
+
+  //bordes de cards cartera de servicios
+
+  
+
+
 .tarjeta p{
-    font-size0: 18px;
+    font-size: 18px;
     letter-spacing: 1px;
     line-height: 1;
     color: darken($color-text, 1%);
@@ -24,6 +63,7 @@ $transition: .2s;
 }
 
 .tarjeta h5{
+
     font-size: 1.5rem;
     font-weight: 200;
     color: $color-header;
@@ -76,9 +116,6 @@ $transition: .2s;
 .subrayado a:hover, .subrayado a:focus{
   background-size: 100% 2px;
 }
-
-
-
 
 .imagen-saturada:hover img{
   filter: saturate(180%);
